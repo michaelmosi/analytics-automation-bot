@@ -1,0 +1,10 @@
+{
+  "sources": [
+    {"type": "ga4", "name": "ga4", "property": "123456789"},
+    {"type": "gsc", "name": "search_console", "site": "sc-domain:example.com"},
+    {"type": "posthog", "name": "posthog", "project_id": "12345", "conversion_event": "sign_up", "host": "https://us.posthog.com"},
+    {"type": "channel_csv", "name": "meta_ads", "csv": "exports/meta_ads.csv",
+     "columns": {"date": "Day", "spend": "Amount spent (USD)", "clicks": "Link clicks", "conversions": "Results"}},
+    {"type": "channel_csv", "name": "tiktok", "csv": "exports/tiktok.csv"}
+  ]
+}

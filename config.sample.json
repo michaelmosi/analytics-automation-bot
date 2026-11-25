@@ -1,0 +1,11 @@
+{
+  "end": "2026-11-15",
+  "sources": [
+    {"type": "ga4", "name": "ga4", "csv": "samples/ga4.sample.csv"},
+    {"type": "gsc", "name": "search_console", "csv": "samples/gsc.sample.csv"},
+    {"type": "posthog", "name": "posthog", "csv": "samples/posthog.sample.csv"},
+    {"type": "channel_csv", "name": "meta_ads", "csv": "samples/meta_ads.sample.csv",
+     "columns": {"date": "Day", "spend": "Amount spent (USD)", "clicks": "Link clicks", "conversions": "Results"}},
+    {"type": "channel_csv", "name": "email_zoho", "csv": "samples/email.sample.csv"}
+  ]
+}
